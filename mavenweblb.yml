@@ -46,7 +46,7 @@ metadata:
   name: mavensvc
   namespace: test
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     dev: maven
   ports:
