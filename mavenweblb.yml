@@ -46,9 +46,10 @@ metadata:
   name: mavensvc
   namespace: test
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     dev: maven
   ports:
   - port: 80
     targetPort: 8080
+    nodePort: 30000
