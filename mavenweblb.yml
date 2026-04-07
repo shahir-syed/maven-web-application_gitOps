@@ -43,7 +43,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mavensvc
+  name: mavenwebappsvc
   namespace: test
 spec:
   type: ClusterIP
